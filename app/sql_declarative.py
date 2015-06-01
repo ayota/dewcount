@@ -36,7 +36,7 @@ class QCEW(Base):
 
 
 engine = create_engine(
-                'postgresql+psycopg2://ayo@localhost/mvp040115'
+                'postgresql+psycopg2://USER@localhost/DBNAME'
                 )
 
 Base.metadata.create_all(engine)
