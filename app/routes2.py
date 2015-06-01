@@ -8,7 +8,7 @@ from flask import Flask, request, g
 
 app = Flask(__name__)
 
-DATABASE = 'postgresql+psycopg2://ayo@localhost/mvp040115'
+DATABASE = 'postgresql+psycopg2://USER@localhost/DBNAME'
 
 app.config.from_object(__name__)
 if __name__ == '__main__':
